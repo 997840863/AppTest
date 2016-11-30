@@ -20,6 +20,11 @@ import android.widget.Toast;
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder>{
 
 	List<String> mVideos;
+
+
+
+
+
 	Context mContext;
 	private VideoViewHolder lastPlayVideo=null;
 	public VideoAdapter(Context context,List<String> videos) {
